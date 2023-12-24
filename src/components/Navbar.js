@@ -14,21 +14,13 @@ export default function Navbar(props) {
     })
 
     const silverPearls = (() => {
-        // event.preventDefault();
         setDisplay(false);
-        // let a = document.getElementsByClassName('absolute-nav')[0];
-        // a.classList.remove('d-none');
         setContent([{"item": "Jhumkas", "id": "0"},{"item": "Earrings", "id": "1"},{"item": "Bracelete", "id": "2"}]);
-        // console.log("Checking")
-        // console.log(content);
-        // console.log(display);
     })
 
     const goldPearls = (() => {
         setDisplay(false);
         setContent([{"item": "Rings", "id": "3"},{"item": "Studs", "id": "4"},{"item": "Necklace", "id": "5"},{"item": "Chain", "id": "6"},{"item": "Pendant", "id": "7"}]);
-        // let a = document.getElementsByClassName('absolute-nav')[0];
-        // a.classList.remove('d-none');
     })
 
   return (
@@ -37,7 +29,6 @@ export default function Navbar(props) {
         <div className='p-md d-flex align-items-center justify-flex-start'>
             <Link to='/' style={{color: "black"}}>
                 <div className='d-flex align-items-center justify-flex-start'>
-                    {/* <img className='main-icon-img' src={JewelLogo} alt="" /> */}
                     <div><i className='main-icon-img fa-solid fa-gem'></i></div>
                     <div className='d-flex flex-col'>
                         <div className='TitleFont'>JewelPearls</div>
@@ -63,12 +54,6 @@ export default function Navbar(props) {
             </div>
         </div>
         <div className={`absolute-nav d-none-${display}`} style={{backgroundColor: "white"}}>
-            {/* <div className='lets-check' style={{float: "right", cursor: "pointer"}}  onClick={cancelButton}>
-                <i className="cross-mark fa-solid fa-xmark"></i>
-            </div> */}
-            {/* <div className='' style={{float: "right", cursor: "pointer"}}  onClick={cancelButton}>
-                <div>&#x274c;</div>
-            </div> */}
             <div className='cross-mark' style={{padding: "5px", float: "right", cursor: "pointer"}}  onClick={cancelButton}>
                 <i className="fa-solid fa-xmark"></i>
             </div>
@@ -91,19 +76,6 @@ export default function Navbar(props) {
                     </div>
                 </div>
             </div>
-            {/* <div className='flex-nav'>
-                <div id='expandCategory' className='d-flex'>
-                    {Array.isArray(content) &&content.map((pearls) => {
-                        return <Item key={pearls.id} content={pearls.item}/>
-                    })}
-                </div>
-                <div id='expandCategory' className='d-flex flex-col'>
-                    <div>Under &#x20B9;10k</div>
-                    <div>&#x20B9;10k to &#x20B9;20k</div>
-                    <div>&#x20B9;20k to &#x20B9;30k</div>
-                    <div>Above &#x20B9;30k</div>
-                </div>
-            </div> */}
         </div>
     </div>
     </>

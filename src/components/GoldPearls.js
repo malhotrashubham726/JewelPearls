@@ -7,8 +7,6 @@ export default function GoldPearls(props) {
   const {content,display,setDisplay} = props;
 
   const cancelButton = (() => {
-    // let a = document.getElementsByClassName('absolute-nav')[0];
-    // a.classList.add('d-none-true');
     setDisplay(true);
   })
 
@@ -23,11 +21,7 @@ export default function GoldPearls(props) {
             <div id='expandCategory' className='d-flex'>
               {content.map((pearls) => {
                 return <Item key={pearls.id} content={pearls.item}/>
-                // return <div><Link to='/load'>{item}</Link></div>
               })}
-                {/* <div>Bracelete</div>
-                <div>Jhumkas</div>
-                <div>Earrings</div> */}
             </div>
             <div id='expandCategory' className='d-flex flex-col'>
                 <div>Under &#x20B9;10k</div>

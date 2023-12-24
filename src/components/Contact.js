@@ -7,16 +7,12 @@ export default function Contact() {
       <form action="">
         <div className='d-flex flex-col align-items-center justify-center'>
             <div className='d-flex flex-row form-width' style={{flexWrap: "nowrap"}}>
-                {/* <div className='form-divide' style={{width: "46%", marginRight: "20px"}}> */}
                 <div className='form-divide mr-20'>
                     <label className='p-md' htmlFor="Fname">First Name</label><br/>
-                    {/* <input style={{padding: "8px", width: "100%"}} className='' type="text" name="Fname" /> */}
                     <input className='textbox' type="text" name="Fname" />
                 </div>
-                {/* <div className='form-divide' style={{width: "46%", marginLeft: "20px"}}> */}
                 <div className='form-divide ml-20'>
                     <label className='p-md' htmlFor="Lname">Last Name</label><br />
-                    {/* <input style={{padding: "8px", width: "100%"}} className='' type="text" name="Lname"/> */}
                     <input className='textbox' type="text" name="Lname"/>
                 </div>
             </div>

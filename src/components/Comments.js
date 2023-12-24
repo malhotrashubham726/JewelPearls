@@ -20,28 +20,6 @@ export default function Comments() {
         console.log("comments-blur")
     })
 
-    // const commentsBtn2 = (() => {
-    //     let b = document.getElementsByClassName('comments-flex')[0];
-    //     // b.classList.remove('stop-btn1');
-    //     // b.classList.remove('stop-btn3');
-    //     b.classList.add('stop-btn2');
-    //     b.classList.remove('comments-animation');
-    //     setTimeout(() => {
-    //         b.classList.remove('stop-btn2');
-    //         b.classList.add('comments-animation')
-    //     }, 8000)
-    // })
-
-    // const commentsBtn3 = (() => {
-    //     let b = document.getElementsByClassName('comments-flex')[0];
-    //     b.classList.remove('comments-animation');
-    //     b.classList.add('stop-btn3');
-    //     setTimeout(() => {
-    //         b.classList.remove('stop-btn3');
-    //         b.classList.add('comments-animation');
-    //     }, 8000)
-    // })
-
   return (
     <div className='comments-wrapper pb-md'>
         <div className='comments-flex comments-animation'>

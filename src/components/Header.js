@@ -22,20 +22,6 @@ export default function Header() {
 
   return (
     <div className='slideshow'>
-      {/* <div className='d-flex'>
-        <span id='slideBtn' tabIndex="0" className='comments-btn slide-btn-1' style={{zIndex: "1"}} onFocus={(() => {btnFocus('stop-btn1')})} onBlur={(() => {btnBlur('stop-btn1')})}></span>
-        <span id='slideBtn' tabIndex="0" className='comments-btn slide-btn-2' style={{zIndex: "1"}} onFocus={(() => {btnFocus('stop-btn2')})} onBlur={(() => {btnBlur('stop-btn2')})}></span>
-        <span id='slideBtn' tabIndex="0" className='comments-btn slide-btn-3' style={{zIndex: "1"}} onFocus={(() => {btnFocus('stop-btn3')})} onBlur={(() => {btnBlur('stop-btn3')})}></span>
-        <span id='slideBtn' tabIndex="0" className='comments-btn slide-btn-4' style={{zIndex: "1"}} onFocus={(() => {btnFocus('stop-btn4')})} onBlur={(() => {btnBlur('stop-btn4')})}></span>
-        <span id='slideBtn' tabIndex="0" className='comments-btn slide-btn-5' style={{zIndex: "1"}} onFocus={(() => {btnFocus('stop-btn5')})} onBlur={(() => {btnBlur('stop-btn5')})}></span>
-      </div>
-      <div className='slideshow-wrapper slideshow-animation'>
-        <img className='slide-img' src={jewel3} alt="" />
-        <img className='slide-img' src={jewel2} alt="" />
-        <img className='slide-img' src={jewel1} alt="" />
-        <img className='slide-img' src={jewel4} alt="" />
-        <img className='slide-img' src={jewel5} alt="" /> 
-      </div> */}
       <div className='slideshow-wrapper slideshow-animation'>
         <img className='slide-img' src={jewel3} alt="" />
         <img className='slide-img' src={jewel2} alt="" />
