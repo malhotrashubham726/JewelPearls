@@ -1,4 +1,3 @@
-//https://www.geeksforgeeks.org/how-to-make-a-carousel-using-css/
 import React from 'react'
 import jewel1 from './JewelleryImg/Jewellery-images1.jpeg';
 import jewel2 from './JewelleryImg/Jewellery-images2.jpeg';

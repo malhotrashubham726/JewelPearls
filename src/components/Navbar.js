@@ -1,7 +1,6 @@
 import React from 'react'
 import searchIcon from './search icon.png';
 import bagImg from './bagImg.png';
-// import JewelLogo from './jewelry-logo.jpg';
 import { Link } from 'react-router-dom';
 import Item from './Item';
 

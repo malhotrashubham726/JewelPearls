@@ -4,7 +4,6 @@ import icon2 from './Icon2.png';
 import icon3 from './Icon3.png'
 
 export default function Comments() {
-
     const commentsBtn1 = ((buttonCheck) => {
         let b = document.getElementsByClassName('comments-flex')[0];
         b.classList.add(buttonCheck);
@@ -24,7 +23,7 @@ export default function Comments() {
     <div className='comments-wrapper pb-md'>
         <div className='comments-flex comments-animation'>
             <div>
-                <div>Team Jewel One, I just wanted to let you know how delighted I was with the Kasuluaperu (Necklace) that was designed and produced. Your craftsmanship is simply superb, my wife and all my near ones are so pleased and proud of the outcome. Special thanks to Mr. Lakshman Rao and his staff for their time and patience working out the design and discussing concerns.</div>
+                <div>Team Jewel Pearls, I just wanted to let you know how delighted I was with the Kasuluaperu (Necklace) that was designed and produced. Your craftsmanship is simply superb, my wife and all my near ones are so pleased and proud of the outcome. Special thanks to Mr. Lakshman Rao and his staff for their time and patience working out the design and discussing concerns.</div>
                 <div style={{margin: "15px 40%"}}>
                     <i class="fa-solid fa-star" style={{color: "#def910"}}></i>
                     <i class="fa-solid fa-star" style={{color: "#def910"}}></i>
@@ -52,7 +51,7 @@ export default function Comments() {
                 </div>
             </div>
             <div>
-                <div>I am a regular customer for Jewel One for the last 2 years .. I should appreciate the staff for the hospitality rendering by them ..The designs are very unique and I am finding new designs whenever I visit the showroom ..I am also having monthly saving scheme with them ..Once I purchased Zilara silver jewellery which finishing is excellent and this collection looks like Platinum jewellery..</div>
+                <div>I am a regular customer for Jewel Pearls for the last 2 years .. I should appreciate the staff for the hospitality rendering by them ..The designs are very unique and I am finding new designs whenever I visit the showroom ..I am also having monthly saving scheme with them ..Once I purchased Zilara silver jewellery which finishing is excellent and this collection looks like Platinum jewellery..</div>
                 <div style={{margin: "15px 40%"}}>
                     <i class="fa-solid fa-star" style={{color: "#def910"}}></i>
                     <i class="fa-solid fa-star" style={{color: "#def910"}}></i>
